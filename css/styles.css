@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+ }
+ 
+ ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.container {
+    overflow-y: scroll;
+}
+
+.container-section-parts {
+    height: 1080px;
+    width: 1920px;
+}
+
+#intro-bg-1,
+#intro-bg-2,
+#intro-bg-3 {
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#intro-bg-1 {
+    z-index: 1;
+    position: absolute;
+}
+
+#intro-bg-2 {
+    z-index: 2;
+    position: absolute;
+}
+
+#intro-bg-3 {
+    z-index: 3;
+    position: absolute;
+}
