@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: scroll;
  }
  
  ::-webkit-scrollbar {
@@ -13,10 +12,18 @@ body {
     overflow-y: scroll;
 }
 
-.container-section-parts {
+.container-section-intro {
     height: 1080px;
     width: 1920px;
 }
+
+
+.container-section-intro-main {
+    position: relative;
+    z-index: 100;
+    margin-left: 20px;
+}
+
 
 #intro-bg-1,
 #intro-bg-2,
