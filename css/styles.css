@@ -1,11 +1,12 @@
 body {
     margin: 0;
     padding: 0;
- }
- 
- ::-webkit-scrollbar {
+}
+
+::-webkit-scrollbar {
     width: 0px;
-    background: transparent; /* make scrollbar transparent */
+    background: transparent;
+    /* make scrollbar transparent */
 }
 
 .container {
@@ -21,7 +22,33 @@ body {
 .container-section-intro-main {
     position: relative;
     z-index: 100;
-    margin-left: 20px;
+    display: flex;
+}
+
+.container-section-intro-main-left {
+    margin-left: 150px;
+    margin-top: 160px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.container-section-intro-main-right {
+    margin-left: 150px;
+    margin-top: 140px;
+}
+
+.my-comment-large {
+    font-size: 80px;
+}
+
+#my-name {
+    background: -webkit-linear-gradient(left, #DCB5FF, #B1C9F4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#my-comment-small {
+    font-size: 50px;
 }
 
 
@@ -33,19 +60,35 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+    position: absolute;
 }
 
 #intro-bg-1 {
     z-index: 1;
-    position: absolute;
 }
 
 #intro-bg-2 {
     z-index: 2;
-    position: absolute;
 }
 
 #intro-bg-3 {
     z-index: 3;
-    position: absolute;
+}
+
+#download-resume {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-family: 'JetBrains Mono', monospace;
+    height: 50px;
+    margin-right: 30px;
+    transition: all .5s ease-out;
+    width: 160px;
+}
+
+#intro-memoji {
+    width: 110%;
+    filter: drop-shadow(3px 5px 5px #000000);
 }
