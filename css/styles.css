@@ -143,23 +143,23 @@ body {
 /* END -- Intro Section CSS 작업 끝 -- */
 
 
+/* START -- About Section CSS 작업 시작 -- */
 
 .container-section-about {
-    height: 1080px;
+    height: 2160px;
     width: 1920px;
-    padding-left: 55px;
-    padding-right: 55px;
     background-color: #F9F9F9;
     position: absolute;
 }
 
 .container-section-about-main-texts {
     position: relative;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
     margin-top: 35px;
+    margin-left: 55px;
 }
 
-.about-text-title {
+#about-text-title {
     font-family: 'Roboto', sans-serif;
     font-size: 70px;
     color: #1A1A1A;
@@ -174,6 +174,8 @@ body {
 
 .container-sesction-about-main-slideshow {
     height: 806px;
+    width: 100%;
+    margin-left: 55px;
 }
 
 .about-slideshow-images {
@@ -184,13 +186,12 @@ body {
 .about-slideshow-arrows {
     height: 806px;
     display: flex;
-    align-items: center; 
+    align-items: center;
     position: absolute;
     z-index: 2;
 }
 
-#arrow-left
-{
+#arrow-left {
     margin-left: 35px;
     margin-right: 1280px;
 }
@@ -209,8 +210,119 @@ body {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
+}
+
+.active,
+.dot:hover {
     background-color: #717171;
-  }
+}
+
+.container-section-about-main-info {
+    padding-top: 100px;
+    width: 1208px;
+    margin:auto;
+    display: block;
+}
+
+.container-section-about-main-info-texts {
+    margin-bottom: 20px;
+}
+
+#about-text-mini {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1A1A1A;
+}
+
+#about-text-aboutme {
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #1A1A1A;
+}
+
+#about-text-small-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    line-height: 25px;
+    color: #6E6E6E;
+}
+
+.container-section-about-main-info-blocks {
+    position: relative;
+    margin-top: 80px;
+    padding-top: 0px;
+    display:inline;
+}
+
+.about-block-square {
+    height: 379px;
+    width: 379px;
+    background-color: #E8E8E8;
+    margin: auto;
+    float: left;
+}
+
+.about-block-rectangle {
+    height: 379px;
+    width: 804px;
+    background-color: #F0F0F0;
+    margin: auto;
+    float: right;
+}
+
+.about-block-rectangle2 {
+    margin-top: 23px;
+    height: 277px;
+    width: 100%;
+    background-color: #DDDDDD;
+    position: static;
+    clear: both;
+    z-index: 1;
+}
+
+.about-on-top {
+    width: 1200px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+
+.about-on-back {
+    width: 1200px;
+    position: absolute;
+    text-align: center;
+    z-index: 0;
+}
+
+#about-memoji {
+    float:left;
+    margin-top: -20px;
+    margin-left: -10px;
+    filter: drop-shadow(2px 5px 8px rgba(0, 0, 0, 0.5));
+}
+
+#about-description-rectangle {
+    width: 95%;
+    margin: auto;
+    padding: 40px 0;
+    line-height: 50px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: #000000;
+}
+
+#about-description-rectangle2 {
+    margin: auto;
+    margin-top: 23px;
+    width: 95%;
+    padding: 40px 0;
+    line-height: 50px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: #000000;
+}
