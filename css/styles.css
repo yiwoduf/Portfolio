@@ -173,7 +173,7 @@ body {
 }
 
 .container-sesction-about-main-slideshow {
-    position: inherit;
+    height: 806px;
 }
 
 .about-slideshow-images {
@@ -197,15 +197,17 @@ body {
 
 .about-slideshow-dots {
     position: relative;
+    margin-top: 10px;
 }
 
 .dot {
     cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
+    height: 12px;
+    width: 12px;
+    margin: 0 1px;
     background-color: #bbb;
     border-radius: 50%;
+    display: inline-block;
     transition: background-color 0.6s ease;
   }
   
