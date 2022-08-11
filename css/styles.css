@@ -9,9 +9,19 @@ body {
     /* make scrollbar transparent */
 }
 
+.center-image {
+    text-align: center;
+}
+
 .container {
     overflow-y: scroll;
 }
+
+.container-section {
+    display: inline;
+}
+
+/* START -- Intro Section CSS 작업 시작 -- */
 
 .container-section-intro {
     height: 1080px;
@@ -23,13 +33,15 @@ body {
     position: relative;
     z-index: 100;
     display: flex;
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 .container-section-intro-main-left {
     margin-left: 250px;
     margin-top: 160px;
     font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 900;
     color: white;
 }
 
@@ -127,3 +139,76 @@ body {
     width: 140%;
     filter: drop-shadow(2px 5px 8px rgba(0, 0, 0, 0.8));
 }
+
+/* END -- Intro Section CSS 작업 끝 -- */
+
+
+
+.container-section-about {
+    height: 1080px;
+    width: 1920px;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: #F9F9F9;
+    position: absolute;
+}
+
+.container-section-about-main-texts {
+    position: relative;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+.about-text-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    color: #1A1A1A;
+    font-weight: bold;
+}
+
+.about-text-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: #7E7E7E;
+}
+
+.container-sesction-about-main-slideshow {
+    position: inherit;
+}
+
+.about-slideshow-images {
+    position: absolute;
+    z-index: 1;
+}
+
+.about-slideshow-arrows {
+    height: 806px;
+    display: flex;
+    align-items: center; 
+    position: absolute;
+    z-index: 2;
+}
+
+#arrow-left
+{
+    margin-left: 35px;
+    margin-right: 1280px;
+}
+
+.about-slideshow-dots {
+    position: relative;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
