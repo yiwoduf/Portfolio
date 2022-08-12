@@ -436,8 +436,8 @@ body {
 
 .badge-svg {
     position: relative;
-    width: 170px;
-    height: 170px;
+    width: 160px;
+    height: 160px;
     z-index: 1;
     overflow: visible;
 }
@@ -449,8 +449,8 @@ svg circle {
     stroke: #141414;
     stroke-width: 18;
     stroke-linecap: round;
-    transform: translate(5px, 5px);
-    overflow: visible
+    overflow: visible;
+    transform: rotate(-90deg);
     
 }
 
@@ -461,9 +461,10 @@ svg circle:nth-child(2) {
 }
 
 .badge:nth-child(1) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(566 - (566 * 90) / 100);
+    stroke-dashoffset: 56.6;
     stroke: #EF652A;
     filter: drop-shadow(0 0 6px #EF652A);
+    animation: ninety-percent 3s ease-out;
 }
 
 #skills-html {
@@ -473,9 +474,10 @@ svg circle:nth-child(2) {
 }
 
 .badge:nth-child(2) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(566 - (566 * 60) / 100);
+    stroke-dashoffset: 226.4;
     stroke: #1C88C7;
     filter: drop-shadow(0 0 6px #1C88C7);
+    animation: sixty-percent 3s ease-out;
 }
 
 #skills-css {
@@ -485,33 +487,34 @@ svg circle:nth-child(2) {
 }
 
 .badge:nth-child(3) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(566 - (566 * 50) / 100);
+    stroke-dashoffset: 283;
     stroke: #F7DF1E;
     filter: drop-shadow(0 0 6px #F7DF1E);
+    animation: fifty-percent 3s ease-out;
 }
 
 #skills-javascript {
-    margin-top: 10px;
     width: 55%;
     z-index: 2;
 }
 
 .badge:nth-child(4) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(566 - (566 * 70) / 100);
+    stroke-dashoffset: 169.8;
     stroke: #61DAFB;
     filter: drop-shadow(0 0 6px #61DAFB);
+    animation: seventy-percent 3s ease-out;
 }
 
 #skills-react {
-    margin-top: 10px;
     width: 55%;
     z-index: 2;
 }
 
 .badge:nth-child(5) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(566 - (566 * 90) / 100);
+    stroke-dashoffset: 56.6;
     stroke: #CD6799;
     filter: drop-shadow(0 0 6px #CD6799);   
+    animation: ninety-percent 3s ease-out;
 }
 
 #skills-sass {
@@ -520,9 +523,10 @@ svg circle:nth-child(2) {
 }
 
 .badge:nth-child(6) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(566 - (566 * 100) / 100);
+    stroke-dashoffset: 0;
     stroke: #004482;
     filter: drop-shadow(0 0 6px #004482);
+    animation: hundred-percent 3s ease-out;
 }
 
 #skills-cpp {
@@ -531,9 +535,10 @@ svg circle:nth-child(2) {
 }
 
 .badge:nth-child(7) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(566 - (566 * 50) / 100);
+    stroke-dashoffset: 339.6;
     stroke: #EA2D2E;
     filter: drop-shadow(0 0 6px #EA2D2E);
+    animation: fourty-percent 3s ease-out;
 }
 
 #skills-java {
@@ -542,12 +547,106 @@ svg circle:nth-child(2) {
 }
 
 .badge:nth-child(8) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(566 - (566 * 70) / 100);
+    stroke-dashoffset: 113.2;
     stroke: #FFCF3E;
     filter: drop-shadow(0 0 6px #FFCF3E);
+    animation: eighty-percent 3s ease-out;
+    
 }
 
 #skills-python {
     width: 55%;
     z-index: 2;
 }
+
+@keyframes hundred-percent {
+    from {
+      stroke-dashoffset: 566;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+}
+
+@keyframes ninety-percent {
+    from {
+      stroke-dashoffset: 566;
+    }
+    to {
+      stroke-dashoffset: 56.6;
+    }
+}
+  
+@keyframes eighty-percent {
+    from {
+      stroke-dashoffset: 566;
+    }
+    to {
+      stroke-dashoffset: 113.2;
+    }
+}
+
+@keyframes seventy-percent {
+    from {
+      stroke-dashoffset: 566;
+    }
+    to {
+      stroke-dashoffset: 169.8;
+    }
+}
+  
+@keyframes sixty-percent {
+    from {
+      stroke-dashoffset: 566;
+    }
+    to {
+      stroke-dashoffset: 226.4;
+    }
+}
+
+@keyframes fifty-percent {
+    from {
+      stroke-dashoffset: 566;
+    }
+    to {
+      stroke-dashoffset: 283;
+    }
+}
+  
+@keyframes fourty-percent {
+    from {
+      stroke-dashoffset: 566;
+    }
+    to {
+      stroke-dashoffset: 339.6;
+    }
+}
+
+@keyframes thirty-percent {
+    from {
+      stroke-dashoffset: 566;
+    }
+    to {
+      stroke-dashoffset: 396.2;
+    }
+}
+
+@keyframes twenty-percent {
+    from {
+      stroke-dashoffset: 566;
+    }
+    to {
+      stroke-dashoffset: 452.8;
+    }
+}
+
+@keyframes ten-percent {
+    from {
+      stroke-dashoffset: 566;
+    }
+    to {
+      stroke-dashoffset: 509.4;
+    }
+}
+  
+  
