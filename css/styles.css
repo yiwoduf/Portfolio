@@ -149,13 +149,13 @@ body {
     height: 2160px;
     width: 1920px;
     background-color: #F9F9F9;
-    position: absolute;
+    position: relative;
 }
 
 .container-section-about-main-texts {
     position: relative;
     margin-bottom: 30px;
-    margin-top: 35px;
+    padding-top: 35px;
     margin-left: 55px;
 }
 
@@ -324,4 +324,16 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
     color: #000000;
+}
+
+/* END -- About Section CSS 작업 끝 -- */
+
+
+/* START -- Skills & Strength Section CSS 작업 시작 -- */
+
+.container-section-skills {
+    height: 1080px;
+    width: 1920px;
+    background-color: #131313;
+    position: absolute;
 }
