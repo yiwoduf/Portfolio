@@ -381,7 +381,7 @@ body {
 
 .badge-container {
     position: relative;
-    width: 1200px;
+    width: 1300px;
     display: inline-flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -392,12 +392,12 @@ body {
 
 .badge-container .badge {
     position: relative;
-    width: 220px;
+    width: 250px;
     background: #1C1C1C;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 220px;
+    height: 250px;
     border-radius: 40px;
     text-align: center;
     overflow: hidden;
@@ -433,13 +433,6 @@ body {
     border-radius: 50%;
 }
 
-.percent .num h2 {
-    color: #777;
-    font-weight: 700;
-    font-size: 40px;
-    transition: 0.5s;
-}
-
 
 .badge-svg {
     position: relative;
@@ -454,7 +447,7 @@ svg circle {
     height: 100%;
     fill: #141414;
     stroke: #141414;
-    stroke-width: 15;
+    stroke-width: 18;
     stroke-linecap: round;
     transform: translate(5px, 5px);
     overflow: visible
@@ -462,38 +455,99 @@ svg circle {
 }
 
 svg circle:nth-child(2) {
-    stroke-dasharray: 440;
-    stroke-dashoffset: 440;
+    stroke-dasharray: 566;
+    stroke-dashoffset: 566;
     
 }
 
 .badge:nth-child(1) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 90) / 100);
+    stroke-dashoffset: calc(566 - (566 * 90) / 100);
     stroke: #EF652A;
     filter: drop-shadow(0 0 6px #EF652A);
-    
-}
-
-.badge:nth-child(2) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 60) / 100);
-    stroke: #1C88C7;
-    filter: drop-shadow(0 0 6px #1C88C7);
-}
-
-.badge:nth-child(3) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 50) / 100);
-    stroke: #F7DF1E;
-    filter: drop-shadow(0 0 6px #F7DF1E);
-}
-
-.badge:nth-child(4) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 70) / 100);
-    stroke: #61DAFB;
-    filter: drop-shadow(0 0 6px #61DAFB);
 }
 
 #skills-html {
     margin-top: 10px;
-    width: 45%;
+    width: 55%;
+    z-index: 2;
+}
+
+.badge:nth-child(2) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(566 - (566 * 60) / 100);
+    stroke: #1C88C7;
+    filter: drop-shadow(0 0 6px #1C88C7);
+}
+
+#skills-css {
+    margin-top: 10px;
+    width: 55%;
+    z-index: 2;
+}
+
+.badge:nth-child(3) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(566 - (566 * 50) / 100);
+    stroke: #F7DF1E;
+    filter: drop-shadow(0 0 6px #F7DF1E);
+}
+
+#skills-javascript {
+    margin-top: 10px;
+    width: 55%;
+    z-index: 2;
+}
+
+.badge:nth-child(4) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(566 - (566 * 70) / 100);
+    stroke: #61DAFB;
+    filter: drop-shadow(0 0 6px #61DAFB);
+}
+
+#skills-react {
+    margin-top: 10px;
+    width: 55%;
+    z-index: 2;
+}
+
+.badge:nth-child(5) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(566 - (566 * 90) / 100);
+    stroke: #CD6799;
+    filter: drop-shadow(0 0 6px #CD6799);   
+}
+
+#skills-sass {
+    width: 65%;
+    z-index: 2;
+}
+
+.badge:nth-child(6) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(566 - (566 * 100) / 100);
+    stroke: #004482;
+    filter: drop-shadow(0 0 6px #004482);
+}
+
+#skills-cpp {
+    width: 60%;
+    z-index: 2;
+}
+
+.badge:nth-child(7) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(566 - (566 * 50) / 100);
+    stroke: #EA2D2E;
+    filter: drop-shadow(0 0 6px #EA2D2E);
+}
+
+#skills-java {
+    width: 50%;
+    z-index: 2;
+}
+
+.badge:nth-child(8) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(566 - (566 * 70) / 100);
+    stroke: #FFCF3E;
+    filter: drop-shadow(0 0 6px #FFCF3E);
+}
+
+#skills-python {
+    width: 55%;
     z-index: 2;
 }
