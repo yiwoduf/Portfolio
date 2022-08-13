@@ -335,7 +335,6 @@ body {
     height: 1080px;
     width: 1920px;
     background-color: #131313;
-    position: absolute;
 }
 
 .container-section-skills-main {
@@ -381,7 +380,7 @@ body {
 
 .badge-container {
     position: relative;
-    width: 1300px;
+    width: 1200px;
     display: inline-flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -649,4 +648,122 @@ svg circle:nth-child(2) {
     }
 }
   
-  
+/* END -- Skills & Strength Section CSS 작업 끝 -- */
+
+
+/* START -- PROJECT Section CSS 작업 시작 -- */
+
+.container-section-projects {
+    height: 3100px;
+    width: 1920px;
+    background-color: #F6F6F6;
+}
+
+#projects-text-mini {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1A1A1A;
+}
+
+#projects-text-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 70px;
+    color: #1A1A1A;
+}
+
+#projects-text-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 25px;
+    color: #6E6E6E;
+}
+
+.container-section-projects-main {
+    padding-top: 160px;
+    padding-left:331px;
+    padding-right:331px;
+}
+
+.container-section-projects-main-samples {
+    padding-top: 100px;
+    display:block;
+}
+
+.container-section-projects-main-samples-one {
+    text-align: center;
+}
+
+.container-section-projects-main-samples-two {
+    clear: both;
+    float: left; 
+}
+
+.container-section-projects-main-samples-three {
+    margin-top: 60px;
+    float: right; 
+}
+
+.container-section-projects-main-samples-four {
+    margin-top: 50px;
+    clear: both;
+    float: left; 
+}
+
+.container-section-projects-main-samples-five {
+    margin-top: 60px;
+    float: right; 
+}
+
+.container-section-projects-main-samples-caption-one {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.container-section-projects-main-samples-caption-two {
+    float: left;
+    margin-left: 50px;
+}
+
+.container-section-projects-main-samples-caption-three {
+    clear: both;
+    float: right;
+    margin-top: 15px;
+    width: 47.5%;
+}
+
+.container-section-projects-main-samples-caption-four {
+    margin-top: 50px;
+    float: left;
+    margin-left: 50px;
+}
+
+.container-section-projects-main-samples-caption-five {
+    margin-top: 15px;
+    clear: both;
+    float: right;
+    width: 47.5%;
+}
+
+.sample-text-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    line-height: 25px;
+    font-weight: bold;
+    color: #171717;
+}
+
+.sample-text-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6E6E6E;
+    display: block;
+    width: 270px;
+    margin-top: 5px;
+}
