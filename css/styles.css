@@ -374,8 +374,8 @@ body {
 .container-section-skills-main-visualize {
     height: 800px;
     display: flex;
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .badge-container {
@@ -385,8 +385,8 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
-    
-    
+
+
 }
 
 .badge-container .badge {
@@ -450,13 +450,13 @@ svg circle {
     stroke-linecap: round;
     overflow: visible;
     transform: rotate(-90deg);
-    
+
 }
 
 svg circle:nth-child(2) {
     stroke-dasharray: 566;
     stroke-dashoffset: 566;
-    
+
 }
 
 .badge:nth-child(1) svg circle:nth-child(2) {
@@ -512,7 +512,7 @@ svg circle:nth-child(2) {
 .badge:nth-child(5) svg circle:nth-child(2) {
     stroke-dashoffset: 56.6;
     stroke: #CD6799;
-    filter: drop-shadow(0 0 6px #CD6799);   
+    filter: drop-shadow(0 0 6px #CD6799);
     animation: ninety-percent 3s ease-out;
 }
 
@@ -550,7 +550,7 @@ svg circle:nth-child(2) {
     stroke: #FFCF3E;
     filter: drop-shadow(0 0 6px #FFCF3E);
     animation: eighty-percent 3s ease-out;
-    
+
 }
 
 #skills-python {
@@ -560,94 +560,104 @@ svg circle:nth-child(2) {
 
 @keyframes hundred-percent {
     from {
-      stroke-dashoffset: 566;
+        stroke-dashoffset: 566;
     }
+
     to {
-      stroke-dashoffset: 0;
+        stroke-dashoffset: 0;
     }
 }
 
 @keyframes ninety-percent {
     from {
-      stroke-dashoffset: 566;
+        stroke-dashoffset: 566;
     }
+
     to {
-      stroke-dashoffset: 56.6;
+        stroke-dashoffset: 56.6;
     }
 }
-  
+
 @keyframes eighty-percent {
     from {
-      stroke-dashoffset: 566;
+        stroke-dashoffset: 566;
     }
+
     to {
-      stroke-dashoffset: 113.2;
+        stroke-dashoffset: 113.2;
     }
 }
 
 @keyframes seventy-percent {
     from {
-      stroke-dashoffset: 566;
+        stroke-dashoffset: 566;
     }
+
     to {
-      stroke-dashoffset: 169.8;
+        stroke-dashoffset: 169.8;
     }
 }
-  
+
 @keyframes sixty-percent {
     from {
-      stroke-dashoffset: 566;
+        stroke-dashoffset: 566;
     }
+
     to {
-      stroke-dashoffset: 226.4;
+        stroke-dashoffset: 226.4;
     }
 }
 
 @keyframes fifty-percent {
     from {
-      stroke-dashoffset: 566;
+        stroke-dashoffset: 566;
     }
+
     to {
-      stroke-dashoffset: 283;
+        stroke-dashoffset: 283;
     }
 }
-  
+
 @keyframes fourty-percent {
     from {
-      stroke-dashoffset: 566;
+        stroke-dashoffset: 566;
     }
+
     to {
-      stroke-dashoffset: 339.6;
+        stroke-dashoffset: 339.6;
     }
 }
 
 @keyframes thirty-percent {
     from {
-      stroke-dashoffset: 566;
+        stroke-dashoffset: 566;
     }
+
     to {
-      stroke-dashoffset: 396.2;
+        stroke-dashoffset: 396.2;
     }
 }
 
 @keyframes twenty-percent {
     from {
-      stroke-dashoffset: 566;
+        stroke-dashoffset: 566;
     }
+
     to {
-      stroke-dashoffset: 452.8;
+        stroke-dashoffset: 452.8;
     }
 }
 
 @keyframes ten-percent {
     from {
-      stroke-dashoffset: 566;
+        stroke-dashoffset: 566;
     }
+
     to {
-      stroke-dashoffset: 509.4;
+        stroke-dashoffset: 509.4;
     }
 }
-  
+
 /* END -- Skills & Strength Section CSS 작업 끝 -- */
 
 
@@ -683,13 +693,13 @@ svg circle:nth-child(2) {
 
 .container-section-projects-main {
     padding-top: 160px;
-    padding-left:331px;
-    padding-right:331px;
+    padding-left: 331px;
+    padding-right: 331px;
 }
 
 .container-section-projects-main-samples {
     padding-top: 100px;
-    display:block;
+    display: block;
 }
 
 .container-section-projects-main-samples-one {
@@ -698,23 +708,23 @@ svg circle:nth-child(2) {
 
 .container-section-projects-main-samples-two {
     clear: both;
-    float: left; 
+    float: left;
 }
 
 .container-section-projects-main-samples-three {
     margin-top: 60px;
-    float: right; 
+    float: right;
 }
 
 .container-section-projects-main-samples-four {
     margin-top: 50px;
     clear: both;
-    float: left; 
+    float: left;
 }
 
 .container-section-projects-main-samples-five {
     margin-top: 60px;
-    float: right; 
+    float: right;
 }
 
 .container-section-projects-main-samples-caption-one {
@@ -766,4 +776,71 @@ svg circle:nth-child(2) {
     display: block;
     width: 270px;
     margin-top: 5px;
+}
+
+/* END -- PROJECT Section CSS 작업 끝 -- */
+
+
+
+/* START -- CONTACT Section CSS 작업 시작 -- */
+
+.container-section-contact {
+    display: flex;
+    justify-content: center;
+    width: 1920px;
+    height: 1300px;
+    background: linear-gradient(to right, #9896EF, #DDABB8);
+}
+
+.container-section-contact-main {
+    position: relative;
+    display: inline;
+}
+
+.container-section-contact-main-title {
+    margin-top: 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 120px;
+    font-weight: 900;
+    font-style: italic;
+    display: inline-block;
+    line-height: 100px;
+    border-bottom: 9px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+#contact-memoji {
+    margin-left: -110px;
+    filter: drop-shadow(2px 5px 8px rgba(0, 0, 0, 0.8));
+}
+
+#contact-info-table {
+    width: 1000px;
+    height: 500px;
+    border-radius: 91px;
+    background: #F9F9F9;
+    padding: 20px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.3));
+}
+
+.container-section-contact-main-footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#contact-footer-text {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
 }
