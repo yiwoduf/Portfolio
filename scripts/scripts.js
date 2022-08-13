@@ -1,8 +1,10 @@
 
+/*
 // CHECKING SCROLL POSITION
 window.onscroll = function (e) {
     console.log(window.scrollY); // Value of scroll Y in px
 };
+*/
 
 
 $(document).on("scroll", function () { // FADE IN AND OUT EFFECT
