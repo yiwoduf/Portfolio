@@ -385,9 +385,8 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
-
-
 }
+
 
 .badge-container .badge {
     position: relative;
@@ -702,32 +701,32 @@ svg circle:nth-child(2) {
     display: block;
 }
 
-.container-section-projects-main-samples-one {
+.container-section-projects-main-one-image {
     text-align: center;
 }
 
-.container-section-projects-main-samples-two {
+.container-section-projects-main-two-image {
     clear: both;
     float: left;
 }
 
-.container-section-projects-main-samples-three {
+.container-section-projects-main-three-image {
     margin-top: 60px;
     float: right;
 }
 
-.container-section-projects-main-samples-four {
+.container-section-projects-main-four-image {
     margin-top: 50px;
     clear: both;
     float: left;
 }
 
-.container-section-projects-main-samples-five {
+.container-section-projects-main-five-image {
     margin-top: 60px;
     float: right;
 }
 
-.container-section-projects-main-samples-caption-one {
+.container-section-projects-main-one-caption {
     clear: both;
     float: left;
     width: 100%;
@@ -735,25 +734,25 @@ svg circle:nth-child(2) {
     margin-bottom: 50px;
 }
 
-.container-section-projects-main-samples-caption-two {
+.container-section-projects-main-two-caption {
     float: left;
     margin-left: 50px;
 }
 
-.container-section-projects-main-samples-caption-three {
+.container-section-projects-main-three-caption {
     clear: both;
     float: right;
     margin-top: 15px;
     width: 47.5%;
 }
 
-.container-section-projects-main-samples-caption-four {
+.container-section-projects-main-four-caption {
     margin-top: 50px;
     float: left;
     margin-left: 50px;
 }
 
-.container-section-projects-main-samples-caption-five {
+.container-section-projects-main-five-caption {
     margin-top: 15px;
     clear: both;
     float: right;
