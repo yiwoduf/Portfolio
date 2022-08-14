@@ -12,7 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Roboto:ital,wght@0,400;0,700;1,900&display=swap"
         rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="scripts/scripts.js"></script>
 
 </head>
@@ -75,43 +75,54 @@
                             <img id="arrow-right" src="/src/img/about/arrow-right.png">
                         </div>
                     </div>
-                    <div class="about-slideshow-dots center-image">
+                    <div class="about-slideshow-dots">
                         <span class="dot" onclick="currentSlide(1)"></span>
                         <span class="dot" onclick="currentSlide(2)"></span>
                         <span class="dot" onclick="currentSlide(3)"></span>
                         <span class="dot" onclick="currentSlide(4)"></span>
                         <span class="dot" onclick="currentSlide(5)"></span>
                     </div>
-                    <div class="container-section-about-main-info center-image">
+                    <div class="container-section-about-main-info">
                         <div class="container-section-about-main-info-texts">
                             <a id="about-text-mini">WHO AM I</a><br>
                             <a id="about-text-aboutme">ABOUT ME</a><br>
                             <a id="about-text-small-description">My dream is to change the world.</a><br>
                         </div>
-                        <div class="container-section-about-main-info-blocks center-image">
-                            <div class="about-on-top">
-                                <img id="about-memoji" src="/src/img/about/memoji-fist.png">
-                                <div id="about-description-rectangle">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo
-                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                    dolore
-                                    eu</div>
-                                <div id="about-description-rectangle2">Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing
-                                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo
-                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                    dolore
-                                    eu </div>
-                            </div>
-                            <div class="about-on-back">
-                                <div class="about-block-square"></div>
-                                <div class="about-block-rectangle"></div>
-                                <div style="height: 379px;"></div>
-                                <div class="about-block-rectangle2"></div>
+                        <div class="container-section-about-main-info-blocks">
+                            <div class="container-section-about-main-info-blocks-container">
+                                <div class="about-row-top">
+                                    <div class="about-block-square"><img id="about-memoji"
+                                            src="/src/img/about/memoji-fist.png"></div>
+                                    <div class="about-block-rectangle">
+                                        <div id="about-description-rectangle">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                            enim ad
+                                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                            ea
+                                            commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum
+                                            dolore
+                                            eu
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="about-row-bottom">
+                                    <div class="about-block-rectangle2">
+                                        <div id="about-description-rectangle2">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing
+                                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                            enim ad
+                                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                            ea
+                                            commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum
+                                            dolore
+                                            eu </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -120,13 +131,16 @@
             <div class="container-section-skills center-image">
                 <!-- SKILLS & STRENGTHS SECTION -->
                 <div class="container-section-skills-main center-image">
-                    <div class="container-section-skills-main-texts">
+                    <div class="container-section-skills-main-title">
                         <img id="skills-memoji-laptop" src="/src/img/skills/skills-laptop.png">
-                        <a id="skills-text-title">SKILLS & STRENGTHS</a><br>
-                        <a id="skills-text-description">Ask me to do anything. I will learn faster than a
-                            Lamborghini.</a>
+                        <div class="container-section-skills-main-title-texts">
+                            <a id="skills-text-title">SKILLS & STRENGTHS</a><br>
+                            <a id="skills-text-description">Ask me to do anything. I will learn faster than a
+                                Lamborghini.</a>
+                        </div>
+
                     </div>
-                    <div class="container-section-skills-main-visualize center-image">
+                    <div class="container-section-skills-main-visualize">
                         <div class="badge-container center-image">
                             <div class="badge">
                                 <div class="box">
@@ -255,53 +269,58 @@
                     <div class="container-section-projects-main-samples">
                         <div class="container-section-project-main-one">
                             <div class="container-section-projects-main-one-image">
-                            <img id="project-img-1" src="/src/img/projects/project_img_1.png">
+                                <img id="project-img-1" src="/src/img/projects/project_img_1.png">
+                            </div>
+                            <div class="container-section-projects-main-one-caption">
+                                <a class="sample-text-title">LEAGUE OF LEGENDS</a><br>
+                                <a class="sample-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed do eiusmod tempor incididunt ut labore et</a><br>
+                            </div>
                         </div>
-                        <div class="container-section-projects-main-one-caption">
-                            <a class="sample-text-title">LEAGUE OF LEGENDS</a><br>
-                            <a class="sample-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et</a><br>
-                        </div>
-                    </div>
-                    <div class="container-section-project-main-two">
-                        <div class="container-section-projects-main-two-image">
-                            <img id="project-img-2" src="/src/img/projects/project_img_2.png">
-                        </div>
-                        <div class="container-section-projects-main-two-caption">
-                            <a class=" sample-text-title">ADIDAS</a><br>
-                            <a class="sample-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et</a><br>
-                        </div>
+                        <div class="container-section-project-main-two">
+                            <div class="container-section-projects-main-two-image">
+                                <img id="project-img-2" src="/src/img/projects/project_img_2.png">
+                            </div>
+                            <div class="container-section-projects-main-two-caption">
+                                <a class=" sample-text-title">ADIDAS</a><br>
+                                <a class="sample-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed do eiusmod tempor incididunt ut labore et</a><br>
+                            </div>
                         </div>
                         <div class="container-section-project-main-three">
-                        <div class="container-section-projects-main-three-image">
-                            <img id="project-img-3" src="/src/img/projects/project_img_3.png">
-                        </div>
-                        <div class="container-section-projects-main-three-caption">
-                            <a class="sample-text-title">STARBUCKS</a><br>
-                            <a class="sample-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et</a><br>
-                        </div>
+                            <div class="container-section-projects-main-three-image">
+                                <img id="project-img-3" src="/src/img/projects/project_img_3.png">
+                            </div>
+                            <div class="container-section-projects-main-three-caption">
+                                <a class="sample-text-title">STARBUCKS</a><br>
+                                <a class="sample-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed do eiusmod tempor incididunt ut labore et</a><br>
+                            </div>
                         </div>
                         <div class="container-section-project-main-four">
-                        <div class="container-section-projects-main-four-image">
-                            <img id="project-img-4" src="/src/img/projects/project_img_4.png">
-                        </div>
-                        <div class="container-section-projects-main-four-caption">
-                            <a class="sample-text-title">CUBASE 12 PRO</a><br>
-                            <a class="sample-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et</a><br>
-                        </div>
+                            <div class="container-section-projects-main-four-image">
+                                <img id="project-img-4" src="/src/img/projects/project_img_4.png">
+                            </div>
+                            <div class="container-section-projects-main-four-caption">
+                                <a class="sample-text-title">CUBASE 12 PRO</a><br>
+                                <a class="sample-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed do eiusmod tempor incididunt ut labore et</a><br>
+                            </div>
                         </div>
                         <div class="container-section-project-main-five">
-                        <div class="container-section-projects-main-five-image">
-                            <img id="project-img-5" src="/src/img/projects/project_img_5.png">
-                        </div>
-                        <div class="container-section-projects-main-five-caption">
-                            <a class="sample-text-title">MAPLESTORY</a><br>
-                            <a class="sample-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et</a><br>
-                        </div>
+                            <div class="container-section-projects-main-five-image">
+                                <img id="project-img-5" src="/src/img/projects/project_img_5.png">
+                            </div>
+                            <div class="container-section-projects-main-five-caption">
+                                <a class="sample-text-title">MAPLESTORY</a><br>
+                                <a class="sample-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed do eiusmod tempor incididunt ut labore et</a><br>
+                            </div>
                         </div>
                     </div>
                 </div>

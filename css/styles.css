@@ -35,17 +35,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
 }
 
 
 .container-section-intro-main {
-    width: 100%;
+    width: 70%;
     position: relative;
     z-index: 100;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .container-section-intro-main-left {
@@ -53,9 +52,6 @@ body {
     font-style: italic;
     font-weight: 900;
     color: white;
-}
-
-.container-section-intro-main-right {
 }
 
 .container-section-intro-main-buttons {
@@ -157,14 +153,16 @@ body {
     height: 25%;
     width: 100%;
     background-color: #F9F9F9;
-    position: relative;
+}
+
+.container-section-about-main {
+    height: 100%;
 }
 
 .container-section-about-main-texts {
+    height: 7%;
     position: relative;
-    margin-bottom: 30px;
-    padding-top: 35px;
-    margin-left: 55px;
+    padding: 35px 55px;
 }
 
 #about-text-title {
@@ -181,31 +179,38 @@ body {
 }
 
 .container-sesction-about-main-slideshow {
-    height: 806px;
-    margin-left: 55px;
+    width: 100%;
+    height: 39.35%;
+    padding: 0 55px;
 }
 
 .about-slideshow-images {
+    width: 95%;
     position: absolute;
     z-index: 1;
 }
 
+#about-slideshow-images-sample {
+    max-width:100%;
+    height:auto;
+}
+
 .about-slideshow-arrows {
     height: 806px;
+    width: 73.3%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     position: absolute;
     z-index: 2;
 }
 
-#arrow-left {
-    margin-left: 35px;
-    margin-right: 1280px;
-}
-
 .about-slideshow-dots {
-    position: relative;
+    width: 100%;
     margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .dot {
@@ -215,8 +220,8 @@ body {
     margin: 0 1px;
     background-color: #bbb;
     border-radius: 50%;
-    display: inline-block;
     transition: background-color 0.6s ease;
+    margin: 0 5px;
 }
 
 .active,
@@ -226,13 +231,18 @@ body {
 
 .container-section-about-main-info {
     padding-top: 100px;
-    width: 1208px;
-    margin: auto;
-    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
+
 .container-section-about-main-info-texts {
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #about-text-mini {
@@ -246,38 +256,62 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 64px;
     font-weight: bold;
-    line-height: 50px;
+    line-height: 20px;
     color: #1A1A1A;
 }
 
 #about-text-small-description {
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
-    line-height: 25px;
+    line-height: 20px;
     color: #6E6E6E;
 }
 
 .container-section-about-main-info-blocks {
-    position: relative;
-    margin-top: 80px;
+    width: 100%;
+    margin-top: 40px;
     padding-top: 0px;
-    display: inline;
+    display: flex;
+    justify-content: center;
+}
+
+.container-section-about-main-info-blocks-container {
+    width: 62.92%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-row-top {
+    width: 100%;
+    height: 55.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-row-bottom {
+    width: 100%;
+    height: 40.56%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .about-block-square {
-    height: 379px;
-    width: 379px;
+    height: 100%;
+    width: 31.37%;
     background-color: #E8E8E8;
-    margin: auto;
-    float: left;
 }
 
 .about-block-rectangle {
-    height: 379px;
-    width: 804px;
+    height: 100%;
+    width: 66.55%;
     background-color: #F0F0F0;
-    margin: auto;
-    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .about-block-rectangle2 {
@@ -285,37 +319,20 @@ body {
     height: 277px;
     width: 100%;
     background-color: #DDDDDD;
-    position: static;
     clear: both;
     z-index: 1;
-}
-
-.about-on-top {
-    width: 1200px;
-    position: absolute;
-    text-align: center;
-    z-index: 1;
-}
-
-.about-on-back {
-    width: 1200px;
-    position: absolute;
-    text-align: center;
-    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #about-memoji {
-    float: left;
-    margin-top: -20px;
-    margin-left: -10px;
+    width: 100%;
     filter: drop-shadow(2px 5px 8px rgba(0, 0, 0, 0.5));
 }
 
 #about-description-rectangle {
-    width: 95%;
-    margin: auto;
-    padding: 40px 0;
-    line-height: 50px;
+    padding: 60px;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
@@ -323,11 +340,7 @@ body {
 }
 
 #about-description-rectangle2 {
-    margin: auto;
-    margin-top: 23px;
-    width: 95%;
-    padding: 40px 0;
-    line-height: 50px;
+    padding: 60px;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
@@ -343,19 +356,29 @@ body {
     height: 14.7%;
     width: 100%;
     background-color: #131313;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-section-skills-main {
-    margin: auto 100px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-section-skills-main-title {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-.container-section-skills-main-texts {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 410px;
-    padding-right: 410px;
+.container-section-skills-main-title-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #skills-memoji-laptop {
@@ -380,14 +403,13 @@ body {
 }
 
 .container-section-skills-main-visualize {
-    height: 800px;
+    height: 1000px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .badge-container {
-    position: relative;
     width: 1200px;
     display: inline-flex;
     justify-content: space-between;
@@ -397,7 +419,6 @@ body {
 
 
 .badge-container .badge {
-    position: relative;
     width: 250px;
     background: #1C1C1C;
     display: flex;
@@ -674,6 +695,8 @@ svg circle:nth-child(2) {
     height: 35.3%;
     width: 100%;
     background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
 }
 
 #projects-text-mini {
@@ -700,8 +723,6 @@ svg circle:nth-child(2) {
 
 .container-section-projects-main {
     padding-top: 160px;
-    padding-left: 331px;
-    padding-right: 331px;
 }
 
 .container-section-projects-main-samples {
