@@ -18,27 +18,35 @@ body {
 }
 
 .container-section {
-    display: inline;
+    display: inline-block;
+    width: 100%;
+    height: 8800px;
 }
+
 
 /* START -- Intro Section CSS 작업 시작 -- */
 
 .container-section-intro {
-    height: 1080px;
-    width: 1920px;
+    width: 100%;
+    height: 12.5%;
+    background: linear-gradient(to right, #4F0BD7, #8E2DE2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 
 .container-section-intro-main {
+    width: 100%;
     position: relative;
     z-index: 100;
     display: flex;
-    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-section-intro-main-left {
-    margin-left: 250px;
-    margin-top: 160px;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 900;
@@ -46,8 +54,6 @@ body {
 }
 
 .container-section-intro-main-right {
-    margin-left: 250px;
-    margin-top: 100px;
 }
 
 .container-section-intro-main-buttons {
@@ -146,8 +152,8 @@ body {
 /* START -- About Section CSS 작업 시작 -- */
 
 .container-section-about {
-    height: 2160px;
-    width: 1920px;
+    height: 25%;
+    width: 100%;
     background-color: #F9F9F9;
     position: relative;
 }
@@ -332,13 +338,13 @@ body {
 /* START -- Skills & Strength Section CSS 작업 시작 -- */
 
 .container-section-skills {
-    height: 1080px;
-    width: 1920px;
+    height: 14.7%;
+    width: 100%;
     background-color: #131313;
 }
 
 .container-section-skills-main {
-    margin: 0 100px;
+    margin: auto 100px;
     display: inline-block;
     align-items: center;
 }
@@ -663,8 +669,8 @@ svg circle:nth-child(2) {
 /* START -- PROJECT Section CSS 작업 시작 -- */
 
 .container-section-projects {
-    height: 3100px;
-    width: 1920px;
+    height: 35.3%;
+    width: 100%;
     background-color: #F6F6F6;
 }
 
@@ -786,8 +792,8 @@ svg circle:nth-child(2) {
 .container-section-contact {
     display: flex;
     justify-content: center;
-    width: 1920px;
-    height: 1300px;
+    width: 100%;
+    height: 12.5%;
     background: linear-gradient(to right, #9896EF, #DDABB8);
 }
 
