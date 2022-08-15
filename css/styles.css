@@ -141,6 +141,7 @@ body {
 
 #intro-memoji {
     width: 140%;
+    transform: translateX(-60px);
     filter: drop-shadow(2px 5px 8px rgba(0, 0, 0, 0.8));
 }
 
@@ -773,6 +774,7 @@ svg circle:nth-child(2) {
     float: right;
     margin-top: 15px;
     width: 47.5%;
+    text-align: right;
 }
 
 .container-section-projects-main-four-caption {
@@ -801,7 +803,7 @@ svg circle:nth-child(2) {
     font-size: 15px;
     line-height: 18px;
     color: #6E6E6E;
-    display: block;
+    display: inline-flex;
     width: 270px;
     margin-top: 5px;
 }
