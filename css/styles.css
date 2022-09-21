@@ -1,878 +1,860 @@
-
-
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 ::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
-    /* make scrollbar transparent */
+  width: 0px;
+  background: transparent;
+  /* make scrollbar transparent */
 }
 
 .center-image {
-    text-align: center;
+  text-align: center;
 }
 
 .container {
-    overflow-y: scroll;
+  overflow-y: scroll;
 }
 
 .container-section {
-    display: inline-block;
-    width: 100%;
-    height: 8800px;
+  display: inline-block;
+  width: 100%;
+  height: 8800px;
 }
-
 
 /* START -- Intro Section CSS 작업 시작 -- */
 
 .container-section-intro {
-    width: 100%;
-    height: 12.5%;
-    background: linear-gradient(to right, #4F0BD7, #8E2DE2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 12.5%;
+  background: linear-gradient(to right, #4f0bd7, #8e2de2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
 .container-section-intro-main {
-    width: 70%;
-    position: relative;
-    z-index: 100;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: 70%;
+  position: relative;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .container-section-intro-main-left {
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight: 900;
-    color: white;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  color: white;
 }
 
 .container-section-intro-main-buttons {
-    margin-top: 5px;
-    display: flex;
+  margin-top: 5px;
+  display: flex;
 }
 
 .my-comment-large {
-    font-size: 80px;
+  font-size: 80px;
 }
 
 #my-name {
-    background: -webkit-linear-gradient(left, #DCB5FF, #B1C9F4);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(left, #dcb5ff, #b1c9f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #my-comment-small {
-    font-size: 50px;
+  font-size: 50px;
 }
-
 
 #intro-bg-1,
 #intro-bg-2,
 #intro-bg-3 {
-    width: 100%;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
 }
 
 #intro-bg-1 {
-    z-index: 1;
+  z-index: 1;
 }
 
 #intro-bg-2 {
-    z-index: 2;
+  z-index: 2;
 }
 
 #intro-bg-3 {
-    z-index: 3;
+  z-index: 3;
 }
 
 #download-resume {
-    background-color: #fff;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-    font-family: 'JetBrains Mono', monospace;
-    height: 60px;
-    transition: all .5s ease-out;
-    width: 160px;
-    font-size: 17px;
-    margin-right: 15px;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  font-family: "JetBrains Mono", monospace;
+  height: 60px;
+  transition: all 0.5s ease-out;
+  width: 160px;
+  font-size: 17px;
+  margin-right: 15px;
 }
 
 #move-to-github {
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-    height: 60px;
-    margin-right: 15px;
-    transition: all .5s ease-out;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  height: 60px;
+  margin-right: 15px;
+  transition: all 0.5s ease-out;
 }
 
 #move-to-insta {
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-    height: 60px;
-    margin-right: 15px;
-    transition: all .5s ease-out;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  height: 60px;
+  margin-right: 15px;
+  transition: all 0.5s ease-out;
 }
 
 #download-resume:hover,
 #move-to-github:hover,
 #move-to-insta:hover {
-    transition: 0.3s;
-    transform: scale(1.1)
+  transition: 0.3s;
+  transform: scale(1.1);
 }
 
-
 #intro-memoji {
-    width: 140%;
-    transform: translateX(-60px);
-    filter: drop-shadow(2px 5px 8px rgba(0, 0, 0, 0.8));
+  width: 140%;
+  transform: translateX(-60px);
+  filter: drop-shadow(2px 5px 8px rgba(0, 0, 0, 0.8));
 }
 
 /* END -- Intro Section CSS 작업 끝 -- */
 
-
 /* START -- About Section CSS 작업 시작 -- */
 
 .container-section-about {
-    height: 25%;
-    width: 100%;
-    background-color: #F9F9F9;
+  height: 25%;
+  width: 100%;
+  background-color: #f9f9f9;
 }
 
 .container-section-about-main {
-    height: 100%;
+  height: 100%;
 }
 
 .container-section-about-main-texts {
-    height: 7%;
-    position: relative;
-    padding: 35px 55px;
+  height: 7%;
+  position: relative;
+  padding: 35px 55px;
 }
 
 #about-text-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 70px;
-    color: #1A1A1A;
-    font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 70px;
+  color: #1a1a1a;
+  font-weight: bold;
 }
 
 .about-text-description {
-    font-family: 'Roboto', sans-serif;
-    font-size: 26px;
-    color: #7E7E7E;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  color: #7e7e7e;
 }
 
 .container-sesction-about-main-slideshow {
-    width: 100%;
-    height: 39.35%;
-    padding: 0 55px;
+  width: 100%;
+  height: 39.35%;
+  padding: 0 55px;
 }
 
 .about-slideshow-images {
-    width: 95%;
-    position: absolute;
-    z-index: 1;
+  width: 95%;
+  position: absolute;
+  z-index: 1;
 }
 
 #about-slideshow-images-sample {
-    max-width:100%;
-    height:auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .about-slideshow-arrows {
-    height: 806px;
-    width: 73.3%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: absolute;
-    z-index: 2;
+  height: 806px;
+  width: 73.3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 2;
 }
 
 .about-slideshow-dots {
-    width: 100%;
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .dot {
-    cursor: pointer;
-    height: 12px;
-    width: 12px;
-    margin: 0 1px;
-    background-color: #bbb;
-    border-radius: 50%;
-    transition: background-color 0.6s ease;
-    margin: 0 5px;
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 1px;
+  background-color: #bbb;
+  border-radius: 50%;
+  transition: background-color 0.6s ease;
+  margin: 0 5px;
 }
 
 .active,
 .dot:hover {
-    background-color: #717171;
+  background-color: #717171;
 }
 
 .container-section-about-main-info {
-    padding-top: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  padding-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-
 .container-section-about-main-info-texts {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #about-text-mini {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    color: #1A1A1A;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #1a1a1a;
 }
 
 #about-text-aboutme {
-    font-family: 'Roboto', sans-serif;
-    font-size: 64px;
-    font-weight: bold;
-    line-height: 20px;
-    color: #1A1A1A;
+  font-family: "Roboto", sans-serif;
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #1a1a1a;
 }
 
 #about-text-small-description {
-    font-family: 'Roboto', sans-serif;
-    font-size: 21px;
-    line-height: 20px;
-    color: #6E6E6E;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  line-height: 20px;
+  color: #6e6e6e;
 }
 
 .container-section-about-main-info-blocks {
-    width: 100%;
-    margin-top: 40px;
-    padding-top: 0px;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+  padding-top: 0px;
+  display: flex;
+  justify-content: center;
 }
 
 .container-section-about-main-info-blocks-container {
-    width: 62.92%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  width: 62.92%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .about-row-top {
-    width: 100%;
-    height: 55.5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  width: 100%;
+  height: 55.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .about-row-bottom {
-    width: 100%;
-    height: 40.56%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  width: 100%;
+  height: 40.56%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .about-block-square {
-    height: 100%;
-    width: 31.37%;
-    background-color: #E8E8E8;
+  height: 100%;
+  width: 31.37%;
+  background-color: #e8e8e8;
 }
 
 .about-block-rectangle {
-    height: 100%;
-    width: 66.55%;
-    background-color: #F0F0F0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+  height: 100%;
+  width: 66.55%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-block-rectangle2 {
-    margin-top: 23px;
-    height: 277px;
-    width: 100%;
-    background-color: #DDDDDD;
-    clear: both;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-top: 23px;
+  height: 277px;
+  width: 100%;
+  background-color: #dddddd;
+  clear: both;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #about-memoji {
-    width: 100%;
-    filter: drop-shadow(2px 5px 8px rgba(0, 0, 0, 0.5));
+  width: 100%;
+  filter: drop-shadow(2px 5px 8px rgba(0, 0, 0, 0.5));
 }
 
 #about-description-rectangle {
-    padding: 60px;
-    text-align: justify;
-    font-family: 'Roboto', sans-serif;
-    font-size: 28px;
-    color: #000000;
+  padding: 60px;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  color: #000000;
 }
 
 #about-description-rectangle2 {
-    padding: 60px;
-    text-align: justify;
-    font-family: 'Roboto', sans-serif;
-    font-size: 28px;
-    color: #000000;
+  padding: 60px;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  color: #000000;
 }
 
 /* END -- About Section CSS 작업 끝 -- */
 
-
 /* START -- Skills & Strength Section CSS 작업 시작 -- */
 
 .container-section-skills {
-    height: 14.7%;
-    width: 100%;
-    background-color: #131313;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 14.7%;
+  width: 100%;
+  background-color: #131313;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container-section-skills-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .container-section-skills-main-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-section-skills-main-title-texts {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #skills-memoji-laptop {
-    width: 15%;
-    float: left;
+  width: 15%;
+  float: left;
 }
 
 #skills-text-title {
-    float: right;
-    font-family: 'Roboto', sans-serif;
-    font-size: 75px;
-    font-weight: bold;
-    color: #F8F8F8;
-    padding-top: 40px;
+  float: right;
+  font-family: "Roboto", sans-serif;
+  font-size: 75px;
+  font-weight: bold;
+  color: #f8f8f8;
+  padding-top: 40px;
 }
 
 #skills-text-description {
-    clear: both;
-    font-family: 'Roboto', sans-serif;
-    font-size: 26px;
-    color: #727272;
+  clear: both;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  color: #727272;
 }
 
 .container-section-skills-main-visualize {
-    height: 1000px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .badge-container {
-    width: 1200px;
-    display: inline-flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 30px;
+  width: 1200px;
+  display: inline-flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
-
 .badge-container .badge {
-    width: 250px;
-    background: #1C1C1C;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 250px;
-    border-radius: 40px;
-    text-align: center;
-    overflow: hidden;
-    transition: 0.5s;
-    box-shadow: 0 0px 35px rgba(0, 0, 0, 1);
-    margin-bottom: 50px
+  width: 250px;
+  background: #1c1c1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  border-radius: 40px;
+  text-align: center;
+  overflow: hidden;
+  transition: 0.5s;
+  box-shadow: 0 0px 35px rgba(0, 0, 0, 1);
+  margin-bottom: 50px;
 }
 
 .badge-container .badge:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 1);
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 1);
 }
 
 .percent {
-    position: relative;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    box-shadow: inset 0 0 50px #000;
-    background: #222;
-    z-index: 1000;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 50px #000;
+  background: #222;
+  z-index: 1000;
 }
 
 .percent .num {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 
-
 .badge-svg {
-    position: relative;
-    width: 160px;
-    height: 160px;
-    z-index: 1;
-    overflow: visible;
+  position: relative;
+  width: 160px;
+  height: 160px;
+  z-index: 1;
+  overflow: visible;
 }
 
 svg circle {
-    width: 100%;
-    height: 100%;
-    fill: #141414;
-    stroke: #141414;
-    stroke-width: 18;
-    stroke-linecap: round;
-    overflow: visible;
-    transform: rotate(-90deg);
-
+  width: 100%;
+  height: 100%;
+  fill: #141414;
+  stroke: #141414;
+  stroke-width: 18;
+  stroke-linecap: round;
+  overflow: visible;
+  transform: rotate(-90deg);
 }
 
 svg circle:nth-child(2) {
-    stroke-dasharray: 566;
-    stroke-dashoffset: 566;
-
+  stroke-dasharray: 566;
+  stroke-dashoffset: 566;
 }
 
 .badge:nth-child(1) svg circle:nth-child(2) {
-    stroke-dashoffset: 56.6;
-    stroke: #EF652A;
-    filter: drop-shadow(0 0 6px #EF652A);
-    animation: ninety-percent 3s ease-out;
+  stroke-dashoffset: 56.6;
+  stroke: #ef652a;
+  filter: drop-shadow(0 0 6px #ef652a);
+  animation: ninety-percent 3s ease-out;
 }
 
 #skills-html {
-    margin-top: 10px;
-    width: 55%;
-    z-index: 2;
+  margin-top: 10px;
+  width: 55%;
+  z-index: 2;
 }
 
 .badge:nth-child(2) svg circle:nth-child(2) {
-    stroke-dashoffset: 226.4;
-    stroke: #1C88C7;
-    filter: drop-shadow(0 0 6px #1C88C7);
-    animation: sixty-percent 3s ease-out;
+  stroke-dashoffset: 226.4;
+  stroke: #1c88c7;
+  filter: drop-shadow(0 0 6px #1c88c7);
+  animation: sixty-percent 3s ease-out;
 }
 
 #skills-css {
-    margin-top: 10px;
-    width: 55%;
-    z-index: 2;
+  margin-top: 10px;
+  width: 55%;
+  z-index: 2;
 }
 
 .badge:nth-child(3) svg circle:nth-child(2) {
-    stroke-dashoffset: 283;
-    stroke: #F7DF1E;
-    filter: drop-shadow(0 0 6px #F7DF1E);
-    animation: fifty-percent 3s ease-out;
+  stroke-dashoffset: 283;
+  stroke: #f7df1e;
+  filter: drop-shadow(0 0 6px #f7df1e);
+  animation: fifty-percent 3s ease-out;
 }
 
 #skills-javascript {
-    width: 55%;
-    z-index: 2;
+  width: 55%;
+  z-index: 2;
 }
 
 .badge:nth-child(4) svg circle:nth-child(2) {
-    stroke-dashoffset: 169.8;
-    stroke: #61DAFB;
-    filter: drop-shadow(0 0 6px #61DAFB);
-    animation: seventy-percent 3s ease-out;
+  stroke-dashoffset: 169.8;
+  stroke: #61dafb;
+  filter: drop-shadow(0 0 6px #61dafb);
+  animation: seventy-percent 3s ease-out;
 }
 
 #skills-react {
-    width: 55%;
-    z-index: 2;
+  width: 55%;
+  z-index: 2;
 }
 
 .badge:nth-child(5) svg circle:nth-child(2) {
-    stroke-dashoffset: 56.6;
-    stroke: #CD6799;
-    filter: drop-shadow(0 0 6px #CD6799);
-    animation: ninety-percent 3s ease-out;
+  stroke-dashoffset: 56.6;
+  stroke: #cd6799;
+  filter: drop-shadow(0 0 6px #cd6799);
+  animation: ninety-percent 3s ease-out;
 }
 
 #skills-sass {
-    width: 65%;
-    z-index: 2;
+  width: 65%;
+  z-index: 2;
 }
 
 .badge:nth-child(6) svg circle:nth-child(2) {
-    stroke-dashoffset: 0;
-    stroke: #004482;
-    filter: drop-shadow(0 0 6px #004482);
-    animation: hundred-percent 3s ease-out;
+  stroke-dashoffset: 0;
+  stroke: #004482;
+  filter: drop-shadow(0 0 6px #004482);
+  animation: hundred-percent 3s ease-out;
 }
 
 #skills-cpp {
-    width: 60%;
-    z-index: 2;
+  width: 60%;
+  z-index: 2;
 }
 
 .badge:nth-child(7) svg circle:nth-child(2) {
-    stroke-dashoffset: 339.6;
-    stroke: #EA2D2E;
-    filter: drop-shadow(0 0 6px #EA2D2E);
-    animation: fourty-percent 3s ease-out;
+  stroke-dashoffset: 339.6;
+  stroke: #ea2d2e;
+  filter: drop-shadow(0 0 6px #ea2d2e);
+  animation: fourty-percent 3s ease-out;
 }
 
 #skills-java {
-    width: 50%;
-    z-index: 2;
+  width: 50%;
+  z-index: 2;
 }
 
 .badge:nth-child(8) svg circle:nth-child(2) {
-    stroke-dashoffset: 113.2;
-    stroke: #FFCF3E;
-    filter: drop-shadow(0 0 6px #FFCF3E);
-    animation: eighty-percent 3s ease-out;
-
+  stroke-dashoffset: 113.2;
+  stroke: #ffcf3e;
+  filter: drop-shadow(0 0 6px #ffcf3e);
+  animation: eighty-percent 3s ease-out;
 }
 
 #skills-python {
-    width: 55%;
-    z-index: 2;
+  width: 55%;
+  z-index: 2;
 }
 
 @keyframes hundred-percent {
-    from {
-        stroke-dashoffset: 566;
-    }
+  from {
+    stroke-dashoffset: 566;
+  }
 
-    to {
-        stroke-dashoffset: 0;
-    }
+  to {
+    stroke-dashoffset: 0;
+  }
 }
 
 @keyframes ninety-percent {
-    from {
-        stroke-dashoffset: 566;
-    }
+  from {
+    stroke-dashoffset: 566;
+  }
 
-    to {
-        stroke-dashoffset: 56.6;
-    }
+  to {
+    stroke-dashoffset: 56.6;
+  }
 }
 
 @keyframes eighty-percent {
-    from {
-        stroke-dashoffset: 566;
-    }
+  from {
+    stroke-dashoffset: 566;
+  }
 
-    to {
-        stroke-dashoffset: 113.2;
-    }
+  to {
+    stroke-dashoffset: 113.2;
+  }
 }
 
 @keyframes seventy-percent {
-    from {
-        stroke-dashoffset: 566;
-    }
+  from {
+    stroke-dashoffset: 566;
+  }
 
-    to {
-        stroke-dashoffset: 169.8;
-    }
+  to {
+    stroke-dashoffset: 169.8;
+  }
 }
 
 @keyframes sixty-percent {
-    from {
-        stroke-dashoffset: 566;
-    }
+  from {
+    stroke-dashoffset: 566;
+  }
 
-    to {
-        stroke-dashoffset: 226.4;
-    }
+  to {
+    stroke-dashoffset: 226.4;
+  }
 }
 
 @keyframes fifty-percent {
-    from {
-        stroke-dashoffset: 566;
-    }
+  from {
+    stroke-dashoffset: 566;
+  }
 
-    to {
-        stroke-dashoffset: 283;
-    }
+  to {
+    stroke-dashoffset: 283;
+  }
 }
 
 @keyframes fourty-percent {
-    from {
-        stroke-dashoffset: 566;
-    }
+  from {
+    stroke-dashoffset: 566;
+  }
 
-    to {
-        stroke-dashoffset: 339.6;
-    }
+  to {
+    stroke-dashoffset: 339.6;
+  }
 }
 
 @keyframes thirty-percent {
-    from {
-        stroke-dashoffset: 566;
-    }
+  from {
+    stroke-dashoffset: 566;
+  }
 
-    to {
-        stroke-dashoffset: 396.2;
-    }
+  to {
+    stroke-dashoffset: 396.2;
+  }
 }
 
 @keyframes twenty-percent {
-    from {
-        stroke-dashoffset: 566;
-    }
+  from {
+    stroke-dashoffset: 566;
+  }
 
-    to {
-        stroke-dashoffset: 452.8;
-    }
+  to {
+    stroke-dashoffset: 452.8;
+  }
 }
 
 @keyframes ten-percent {
-    from {
-        stroke-dashoffset: 566;
-    }
+  from {
+    stroke-dashoffset: 566;
+  }
 
-    to {
-        stroke-dashoffset: 509.4;
-    }
+  to {
+    stroke-dashoffset: 509.4;
+  }
 }
 
 /* END -- Skills & Strength Section CSS 작업 끝 -- */
 
-
 /* START -- PROJECT Section CSS 작업 시작 -- */
 
 .container-section-projects {
-    height: 35.3%;
-    width: 100%;
-    background-color: #F6F6F6;
-    display: flex;
-    justify-content: center;
+  height: 35.3%;
+  width: 100%;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
 }
 
 #projects-text-mini {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    color: #1A1A1A;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #1a1a1a;
 }
 
 #projects-text-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 64px;
-    font-weight: bold;
-    line-height: 70px;
-    color: #1A1A1A;
+  font-family: "Roboto", sans-serif;
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 70px;
+  color: #1a1a1a;
 }
 
 #projects-text-description {
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-    line-height: 25px;
-    color: #6E6E6E;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  line-height: 25px;
+  color: #6e6e6e;
 }
 
 .container-section-projects-main {
-    padding-top: 160px;
+  padding-top: 160px;
 }
 
 .container-section-projects-main-samples {
-    padding-top: 100px;
-    display: block;
+  padding-top: 100px;
+  display: block;
 }
 
 .container-section-projects-main-one-image {
-    text-align: center;
+  text-align: center;
 }
 
 .container-section-projects-main-two-image {
-    clear: both;
-    float: left;
+  clear: both;
+  float: left;
 }
 
 .container-section-projects-main-three-image {
-    margin-top: 60px;
-    float: right;
+  margin-top: 60px;
+  float: right;
 }
 
 .container-section-projects-main-four-image {
-    margin-top: 50px;
-    clear: both;
-    float: left;
+  margin-top: 50px;
+  clear: both;
+  float: left;
 }
 
 .container-section-projects-main-five-image {
-    margin-top: 60px;
-    float: right;
+  margin-top: 60px;
+  float: right;
 }
 
 .container-section-projects-main-one-caption {
-    clear: both;
-    float: left;
-    width: 100%;
-    margin-top: 15px;
-    margin-bottom: 50px;
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 50px;
 }
 
 .container-section-projects-main-two-caption {
-    float: left;
-    margin-left: 50px;
+  float: left;
+  margin-left: 50px;
 }
 
 .container-section-projects-main-three-caption {
-    clear: both;
-    float: right;
-    margin-top: 15px;
-    width: 47.5%;
-    text-align: right;
+  clear: both;
+  float: right;
+  margin-top: 15px;
+  width: 47.5%;
+  text-align: right;
 }
 
 .container-section-projects-main-four-caption {
-    margin-top: 50px;
-    float: left;
-    margin-left: 50px;
+  margin-top: 50px;
+  float: left;
+  margin-left: 50px;
 }
 
 .container-section-projects-main-five-caption {
-    margin-top: 15px;
-    clear: both;
-    float: right;
-    width: 47.5%;
+  margin-top: 15px;
+  clear: both;
+  float: right;
+  width: 47.5%;
 }
 
 .sample-text-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 23px;
-    line-height: 25px;
-    font-weight: bold;
-    color: #171717;
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  line-height: 25px;
+  font-weight: bold;
+  color: #171717;
 }
 
 .sample-text-description {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    line-height: 18px;
-    color: #6E6E6E;
-    display: inline-flex;
-    width: 270px;
-    margin-top: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  color: #6e6e6e;
+  display: inline-flex;
+  width: 270px;
+  margin-top: 5px;
 }
 
 /* END -- PROJECT Section CSS 작업 끝 -- */
 
-
-
 /* START -- CONTACT Section CSS 작업 시작 -- */
 
 .container-section-contact {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 12.5%;
-    background: linear-gradient(to right, #9896EF, #DDABB8);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 12.5%;
+  background: linear-gradient(to right, #9896ef, #ddabb8);
 }
 
 .container-section-contact-main {
-    position: relative;
-    display: inline;
+  position: relative;
+  display: inline;
 }
 
 .container-section-contact-main-title {
-    margin-top: 80px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-top: 80px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #contact-text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 120px;
-    font-weight: 900;
-    font-style: italic;
-    display: inline-block;
-    line-height: 100px;
-    border-bottom: 9px solid #FFFFFF;
-    color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 120px;
+  font-weight: 900;
+  font-style: italic;
+  display: inline-block;
+  line-height: 100px;
+  border-bottom: 9px solid #ffffff;
+  color: #ffffff;
 }
 
 #contact-memoji {
-    margin-left: -110px;
-    filter: drop-shadow(2px 5px 8px rgba(0, 0, 0, 0.8));
+  margin-left: -110px;
+  filter: drop-shadow(2px 5px 8px rgba(0, 0, 0, 0.8));
 }
 
 #contact-info-table {
-    width: 1000px;
-    height: 500px;
-    border-radius: 91px;
-    background: #F9F9F9;
-    padding: 20px;
-    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.3));
+  width: 1000px;
+  height: 500px;
+  border-radius: 91px;
+  background: #f9f9f9;
+  padding: 20px;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.3));
 }
 
 .container-section-contact-main-footer {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 #contact-footer-text {
-    color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
-    font-size: 17px;
-    font-weight: bold;
-    position: absolute;
-    bottom: 10px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 10px;
 }
 
 /* END -- CONTACT Section CSS 작업 끝 -- */
