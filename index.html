@@ -3,37 +3,344 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href="/css/styles.css" rel="stylesheet" />
-    <title>Leeable</title>
+    <title>Leeable | Jaeyol Lee</title>
+    <link rel="icon" href="/src/img/icons/web-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Roboto:ital,wght@0,400;0,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+
 </head>
+
 <body>
     <div class="container">
-        <div class="container-section"> 
+        <div class="container-section">
             <div class="container-section-intro">
+                <!-- INTRO PAGE SECTION -->
                 <div class="container-section-intro-background">
+                    <!-- TEMPORARILY DISABLED FOR RESPONSIVE DESIGN
                     <img id="intro-bg-1" src="/src/img/intro/bg_main.png">
-                    <img id="intro-bg-2" src="/src/img/intro/bg_tag.png">
+                    <img id="intro-bg-2" src="/src/img/intro/bg_tag.png"> 
                     <img id="intro-bg-3" src="/src/img/intro/bg_texture.png">
-                
+                    -->
+
                 </div>
                 <div class="container-section-intro-main">
                     <div class="container-section-intro-main-left">
-                        WELCOME TO
-                        JAEYOL LEE'S
-                        PORTFOLIO
+                        <a class="my-comment-large">WELCOME TO</a><br>
+                        <a class="my-comment-large" id="my-name">JAEYOL LEE'S</a><br>
+                        <a class="my-comment-large">PORTFOLIO</a>
+                        <hr align="left" width="100%" color="white" noshade
+                            style="height: 0.1px; width: 450px; margin-top: 2px; margin-bottom: 10px;" />
+                        <a id="my-comment-small">THANK YOU FOR VISITING</a><br>
+                        <div class="container-section-intro-main-buttons">
+                            <button id="download-resume">
+                                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                    stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                                </svg>
+                                RESUME.PDF
+                            </button>
+                            <img id="move-to-github" src="/src/img/intro/github-button.png">
+                            <img id="move-to-insta" src="/src/img/intro/insta-button.png">
+                        </div>
                     </div>
-                    <div class="container-section-intro-main-right"></div>
+                    <div class="container-section-intro-main-right">
+                        <img id="intro-memoji" src="/src/img/intro/intro_memoji.png">
+                    </div>
                 </div>
             </div>
             <div class="container-section-about">
+                <!-- ABOUT MY INFO SECTION -->
+                <div class="container-section-about-main">
+                    <div class="container-section-about-main-texts">
+                        <a id="about-text-title">FULL STACK DEVELOPER</a><br>
+                        <a class="about-text-description">Design, Code, Develop, Test, Launch, Manage</a><br>
+                        <a class="about-text-description">I am a proactive, focused, and methodical person</a><br>
+                    </div>
+                    <div class="container-sesction-about-main-slideshow">
+                        <div class="about-slideshow-images">
+                            <img id="about-slideshow-images-sample" src="/src/img/about/slideshow-sample.png">
+                        </div>
+                        <div class="about-slideshow-arrows">
+                            <img id="arrow-left" src="/src/img/about/arrow-left.png">
+                            <img id="arrow-right" src="/src/img/about/arrow-right.png">
+                        </div>
+                    </div>
+                    <div class="about-slideshow-dots">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                    </div>
+                    <div class="container-section-about-main-info">
+                        <div class="container-section-about-main-info-texts">
+                            <a id="about-text-mini">WHO AM I</a><br>
+                            <a id="about-text-aboutme">ABOUT ME</a><br>
+                            <a id="about-text-small-description">My dream is to change the world.</a><br>
+                        </div>
+                        <div class="container-section-about-main-info-blocks">
+                            <div class="container-section-about-main-info-blocks-container">
+                                <div class="about-row-top">
+                                    <div class="about-block-square"><img id="about-memoji"
+                                            src="/src/img/about/memoji-fist.png"></div>
+                                    <div class="about-block-rectangle">
+                                        <div id="about-description-rectangle">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                            enim ad
+                                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                            ea
+                                            commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum
+                                            dolore
+                                            eu
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="about-row-bottom">
+                                    <div class="about-block-rectangle2">
+                                        <div id="about-description-rectangle2">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing
+                                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                            enim ad
+                                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                            ea
+                                            commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum
+                                            dolore
+                                            eu </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="container-section-skills">
+            <div class="container-section-skills center-image">
+                <!-- SKILLS & STRENGTHS SECTION -->
+                <div class="container-section-skills-main center-image">
+                    <div class="container-section-skills-main-title">
+                        <img id="skills-memoji-laptop" src="/src/img/skills/skills-laptop.png">
+                        <div class="container-section-skills-main-title-texts">
+                            <a id="skills-text-title">SKILLS & STRENGTHS</a><br>
+                            <a id="skills-text-description">Ask me to do anything. I will learn faster than a
+                                Lamborghini.</a>
+                        </div>
+
+                    </div>
+                    <div class="container-section-skills-main-visualize">
+                        <div class="badge-container center-image">
+                            <div class="badge">
+                                <div class="box">
+                                    <div class="percent">
+                                        <svg class="badge-svg">
+                                            <circle cx="-75" cy="75" r="90"></circle>
+                                            <circle cx="-75" cy="75" r="90"></circle>
+                                            <svg>
+                                                <div class="num">
+                                                    <img id="skills-html" src="/src/img/skills/HTML5_Badge.svg">
+                                                </div>
+                                            </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="badge">
+                                <div class="box">
+                                    <div class="percent">
+                                        <svg class="badge-svg">
+                                            <circle cx="-75" cy="75" r="90"></circle>
+                                            <circle cx="-75" cy="75" r="90"></circle>
+                                            <svg>
+                                                <div class="num">
+                                                    <img id="skills-css" src="/src/img/skills/CSS3_Badge.svg">
+                                                </div>
+                                            </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="badge">
+                                <div class="box">
+                                    <div class="percent">
+                                        <svg class="badge-svg">
+                                            <circle cx="-75" cy="75" r="90"></circle>
+                                            <circle cx="-75" cy="75" r="90"></circle>
+                                            <svg>
+                                                <div class="num">
+                                                    <img id="skills-javascript" src="/src/img/skills/JS_Badge.svg">
+                                                </div>
+                                            </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="badge">
+                                <div class="box">
+                                    <div class="percent">
+                                        <svg class="badge-svg">
+                                            <circle cx="-75" cy="75" r="90"></circle>
+                                            <circle cx="-75" cy="75" r="90"></circle>
+                                            <svg>
+                                                <div class="num">
+                                                    <img id="skills-react" src="/src/img/skills/React_Badge.svg">
+                                                </div>
+                                            </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="badge">
+                                <div class="box">
+                                    <div class="percent">
+                                        <svg class="badge-svg">
+                                            <circle cx="-75" cy="75" r="90"></circle>
+                                            <circle cx="-75" cy="75" r="90"></circle>
+                                            <svg>
+                                                <div class="num">
+                                                    <img id="skills-sass" src="/src/img/skills/Sass_Badge.svg">
+                                                </div>
+                                            </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="badge">
+                                <div class="box">
+                                    <div class="percent">
+                                        <svg class="badge-svg">
+                                            <circle cx="-75" cy="75" r="90"></circle>
+                                            <circle cx="-75" cy="75" r="90"></circle>
+                                            <svg>
+                                                <div class="num">
+                                                    <img id="skills-cpp" src="/src/img/skills/Cplusplus_Badge.svg">
+                                                </div>
+                                            </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="badge">
+                                <div class="box">
+                                    <div class="percent">
+                                        <svg class="badge-svg">
+                                            <circle cx="-75" cy="75" r="90"></circle>
+                                            <circle cx="-75" cy="75" r="90"></circle>
+                                            <svg>
+                                                <div class="num">
+                                                    <img id="skills-java" src="/src/img/skills/Java_Badge.svg">
+                                                </div>
+                                            </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="badge">
+                                <div class="box">
+                                    <div class="percent">
+                                        <svg class="badge-svg">
+                                            <circle cx="-75" cy="75" r="90"></circle>
+                                            <circle cx="-75" cy="75" r="90"></circle>
+                                            <svg>
+                                                <div class="num">
+                                                    <img id="skills-python" src="/src/img/skills/Python_Badge.svg">
+                                                </div>
+                                            </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="container-section-projects">
+                <!-- PROJECTS / PORTFOLIO SECTION -->
+                <div class="container-section-projects-main">
+                    <div class="container-section-projects-main-texts center-image">
+                        <a id="projects-text-mini">MY WORK</a><br>
+                        <a id="projects-text-title">PROJECTS</a><br>
+                        <a id="projects-text-description">Look at the amazing works I have done!</a><br>
+                    </div>
+                    <div class="container-section-projects-main-samples">
+                        <div class="container-section-project-main-one">
+                            <div class="container-section-projects-main-one-image">
+                                <img id="project-img-1" src="/src/img/projects/project_img_1.png">
+                            </div>
+                            <div class="container-section-projects-main-one-caption">
+                                <a class="sample-text-title">LEAGUE OF LEGENDS</a><br>
+                                <a class="sample-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed do eiusmod tempor incididunt ut labore et</a><br>
+                            </div>
+                        </div>
+                        <div class="container-section-project-main-two">
+                            <div class="container-section-projects-main-two-image">
+                                <img id="project-img-2" src="/src/img/projects/project_img_2.png">
+                            </div>
+                            <div class="container-section-projects-main-two-caption">
+                                <a class=" sample-text-title">ADIDAS</a><br>
+                                <a class="sample-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed do eiusmod tempor incididunt ut labore et</a><br>
+                            </div>
+                        </div>
+                        <div class="container-section-project-main-three">
+                            <div class="container-section-projects-main-three-image">
+                                <img id="project-img-3" src="/src/img/projects/project_img_3.png">
+                            </div>
+                            <div class="container-section-projects-main-three-caption">
+                                <a class="sample-text-title">STARBUCKS</a><br>
+                                <a class="sample-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed do eiusmod tempor incididunt ut labore et</a><br>
+                            </div>
+                        </div>
+                        <div class="container-section-project-main-four">
+                            <div class="container-section-projects-main-four-image">
+                                <img id="project-img-4" src="/src/img/projects/project_img_4.png">
+                            </div>
+                            <div class="container-section-projects-main-four-caption">
+                                <a class="sample-text-title">CUBASE 12 PRO</a><br>
+                                <a class="sample-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed do eiusmod tempor incididunt ut labore et</a><br>
+                            </div>
+                        </div>
+                        <div class="container-section-project-main-five">
+                            <div class="container-section-projects-main-five-image">
+                                <img id="project-img-5" src="/src/img/projects/project_img_5.png">
+                            </div>
+                            <div class="container-section-projects-main-five-caption">
+                                <a class="sample-text-title">MAPLESTORY</a><br>
+                                <a class="sample-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed do eiusmod tempor incididunt ut labore et</a><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="container-section-contact">
+                <!-- CONTACT SECTION -->
+                <div class="container-section-contact-main center-image">
+                    <div class="container-section-contact-main-title">
+                        <img id="contact-memoji" src="/src/img/contact/contact_memoji.png">
+                        <a id="contact-text">CONTACT</a><br>
+                    </div>
+                    <div class="container-section-contact-main-info">
+                        <div id="contact-info-table">
+
+                        </div>
+                    </div>
+                    <div class="container-section-contact-main-footer">
+                        <a id="contact-footer-text">© 2022. JAEYOL LEE all rights reserved.</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

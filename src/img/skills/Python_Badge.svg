@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99.572" height="99.054" viewBox="0 0 99.572 99.054">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.13" y1="0.12" x2="0.796" y2="0.782" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#387eb8"/>
+      <stop offset="1" stop-color="#366994"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.191" y1="0.206" x2="0.907" y2="0.884" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffe052"/>
+      <stop offset="1" stop-color="#ffc331"/>
+    </linearGradient>
+  </defs>
+  <g id="python" transform="translate(-0.145 -0.072)">
+    <path id="패스_23" data-name="패스 23" d="M49.572.072c-25.278,0-23.7,10.962-23.7,10.962L25.9,22.391H50.023V25.8H16.32S.145,23.966.145,49.471s14.118,24.6,14.118,24.6h8.426V62.236s-.454-14.118,13.893-14.118H60.506s13.442.217,13.442-12.991V13.289S75.989.072,49.572.072Zm-13.3,7.637a4.336,4.336,0,1,1-3.07,1.27A4.336,4.336,0,0,1,36.271,7.709Z" fill="url(#linear-gradient)"/>
+    <path id="패스_24" data-name="패스 24" d="M90.557,138.325c25.278,0,23.7-10.962,23.7-10.962l-.028-11.356H90.105V112.6h33.7s16.175,1.834,16.175-23.671-14.118-24.6-14.118-24.6H117.44V76.16s.454,14.118-13.893,14.118H79.622s-13.442-.217-13.442,12.991v21.839s-2.041,13.216,24.375,13.216Zm13.3-7.636a4.336,4.336,0,1,1,3.07-1.27,4.336,4.336,0,0,1-3.07,1.27Z" transform="translate(-40.267 -39.199)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>
