@@ -5,6 +5,7 @@ window.onscroll = function (e) {
 };
 */
 
+/* -------------------- SHOW PROJECT IMAGES FUNCTIONS -------------------- */
 $(document).on("scroll", function () {
   // FADE IN AND OUT EFFECT
   if ($(document).scrollTop() > 2700 && $(document).scrollTop() < 4200) {
@@ -35,3 +36,5 @@ $(document).on("scroll", function () {
     $(".container-section-project-main-five").fadeOut();
   }
 });
+
+/* -------------------- END OF FADE PROJECT IMAGES -------------------- */

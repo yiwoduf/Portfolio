@@ -177,6 +177,24 @@ body {
   padding: 0 55px;
 }
 
+#slideShow {
+  width: 95%;
+  height: 80%;
+  background: #7e7e7e;
+}
+
+#slideShowImageContainer {
+  width: 100px;
+  height: 100%;
+  float: left;
+  transition: all 1s ease-out;
+  overflow: hidden;
+}
+
+#slideShowImageContainer:hover {
+  width: 300px;
+}
+
 .about-slideshow-images {
   width: 95%;
   position: absolute;
