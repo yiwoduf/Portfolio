@@ -184,7 +184,7 @@ body {
 }
 
 #slideShowImageContainer {
-  width: 100px;
+  width: 5.3%;
   height: 100%;
   float: right;
   transition: all 1s ease-out;
@@ -192,18 +192,7 @@ body {
 }
 
 #slideShowImageContainer:hover {
-  width: 70%;
-}
-
-.about-slideshow-images {
-  width: 95%;
-  position: absolute;
-  z-index: 1;
-}
-
-#about-slideshow-images-sample {
-  max-width: 100%;
-  height: auto;
+  width: 73%;
 }
 
 .container-section-about-main-info {
@@ -695,7 +684,30 @@ svg circle:nth-child(2) {
 
 .container-section-projects-main-samples {
   padding-top: 100px;
-  display: block;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-section-projects-main-samples-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container-section-project-main-two {
+  float: left;
+}
+
+.container-section-project-main-three {
+  float: right;
+}
+
+.container-section-project-main-four {
+  float: left;
+}
+
+.container-section-project-main-five {
+  float: right;
 }
 
 .container-section-projects-main-one-image {
@@ -703,23 +715,20 @@ svg circle:nth-child(2) {
 }
 
 .container-section-projects-main-two-image {
-  clear: both;
   float: left;
 }
 
 .container-section-projects-main-three-image {
-  margin-top: 60px;
   float: right;
 }
 
 .container-section-projects-main-four-image {
-  margin-top: 50px;
-  clear: both;
+  margin-top: 80px;
   float: left;
 }
 
 .container-section-projects-main-five-image {
-  margin-top: 60px;
+  margin-top: 80px;
   float: right;
 }
 
@@ -732,8 +741,11 @@ svg circle:nth-child(2) {
 }
 
 .container-section-projects-main-two-caption {
+  clear: both;
   float: left;
-  margin-left: 50px;
+  margin-top: 15px;
+  width: 47.5%;
+  text-align: left;
 }
 
 .container-section-projects-main-three-caption {
@@ -745,16 +757,18 @@ svg circle:nth-child(2) {
 }
 
 .container-section-projects-main-four-caption {
-  margin-top: 50px;
+  clear: both;
+  margin-top: 15px;
   float: left;
-  margin-left: 50px;
 }
 
 .container-section-projects-main-five-caption {
+  clear: both;
   margin-top: 15px;
   clear: both;
   float: right;
   width: 47.5%;
+  text-align: right;
 }
 
 .sample-text-title {
