@@ -173,17 +173,19 @@ body {
 .container-sesction-about-main-slideshow {
   width: 100%;
   height: 39.35%;
-  padding: 0 55px;
+  display: flex;
+  justify-content: center;
 }
 
 #slideShow {
-  width: 93%;
-  height: 100%;
+  width: 1332px;
+  height: 705px;
+  max-width: 1332px;
   background: #7e7e7e;
 }
 
 #slideShowImageContainer {
-  width: 5.3%;
+  width: 100px;
   height: 100%;
   float: right;
   transition: all 1s ease-out;
@@ -191,7 +193,7 @@ body {
 }
 
 #slideShowImageContainer:hover {
-  width: 75%;
+  width: 932px;
 }
 
 .container-section-about-main-info {
